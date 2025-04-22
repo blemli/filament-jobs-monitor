@@ -1,8 +1,8 @@
 <?php
 
-namespace Croustibat\FilamentJobsMonitor\Resources\QueueMonitorResource\Widgets;
+namespace Blemli\FilamentJobsMonitor\Resources\QueueMonitorResource\Widgets;
 
-use Croustibat\FilamentJobsMonitor\Models\QueueMonitor;
+use Blemli\FilamentJobsMonitor\Models\QueueMonitor;
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 use Illuminate\Support\Facades\DB;

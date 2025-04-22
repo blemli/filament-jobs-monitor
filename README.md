@@ -54,7 +54,7 @@ return [
         'navigation_icon' => 'heroicon-o-cpu-chip',
         'navigation_sort' => null,
         'navigation_count_badge' => false,
-        'resource' => Croustibat\FilamentJobsMonitor\Resources\QueueMonitorResource::class,
+        'resource' => Blemli\FilamentJobsMonitor\Resources\QueueMonitorResource::class,
     ],
     'pruning' => [
         'enabled' => true,
@@ -84,7 +84,7 @@ Then you can extend the model by adding your own methods :
 
     namespace App\Models;
 
-    use \Croustibat\FilamentJobsMonitor\Models\QueueMonitor as CroustibatQueueMonitor;
+    use \Blemli\FilamentJobsMonitor\Models\QueueMonitor as CroustibatQueueMonitor;
 
     class MyQueueMonitor extends CroustibatQueueMonitor {}
 
@@ -100,7 +100,7 @@ For example in your `app/Providers/Filament/AdminPanelProvider.php` file:
 <?php
 
 
-use \Croustibat\FilamentJobsMonitor\FilamentJobsMonitorPlugin;
+use \Blemli\FilamentJobsMonitor\FilamentJobsMonitorPlugin;
 
 ...
 

@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Croustibat\\FilamentJobsMonitor\\": "src"
+            "Blemli\\FilamentJobsMonitor\\": "src"
         }
     },
     "scripts": {
@@ -41,11 +41,11 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Croustibat\\FilamentJobsMonitor\\FilamentJobsMonitorServiceProvider",
-                "Croustibat\\FilamentJobsMonitor\\QueueMonitorProvider"
+                "Blemli\\FilamentJobsMonitor\\FilamentJobsMonitorServiceProvider",
+                "Blemli\\FilamentJobsMonitor\\QueueMonitorProvider"
             ],
             "aliases": {
-                "QueueMonitor": "Croustibat\\FilamentJobsMonitor\\QueueMonitorProvider\\Facade"
+                "QueueMonitor": "Blemli\\FilamentJobsMonitor\\QueueMonitorProvider\\Facade"
             }
         }
     },

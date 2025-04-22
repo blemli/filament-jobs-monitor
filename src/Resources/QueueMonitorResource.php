@@ -1,11 +1,11 @@
 <?php
 
-namespace Croustibat\FilamentJobsMonitor\Resources;
+namespace Blemli\FilamentJobsMonitor\Resources;
 
-use Croustibat\FilamentJobsMonitor\FilamentJobsMonitorPlugin;
-use Croustibat\FilamentJobsMonitor\Models\QueueMonitor;
-use Croustibat\FilamentJobsMonitor\Resources\QueueMonitorResource\Pages\ListQueueMonitors;
-use Croustibat\FilamentJobsMonitor\Resources\QueueMonitorResource\Widgets\QueueStatsOverview;
+use Blemli\FilamentJobsMonitor\FilamentJobsMonitorPlugin;
+use Blemli\FilamentJobsMonitor\Models\QueueMonitor;
+use Blemli\FilamentJobsMonitor\Resources\QueueMonitorResource\Pages\ListQueueMonitors;
+use Blemli\FilamentJobsMonitor\Resources\QueueMonitorResource\Widgets\QueueStatsOverview;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;

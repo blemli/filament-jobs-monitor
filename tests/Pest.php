@@ -1,5 +1,5 @@
 <?php
 
-use Croustibat\FilamentJobsMonitor\Tests\TestCase;
+use Blemli\FilamentJobsMonitor\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

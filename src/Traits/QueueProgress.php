@@ -1,8 +1,8 @@
 <?php
 
-namespace Croustibat\FilamentJobsMonitor\Traits;
+namespace Blemli\FilamentJobsMonitor\Traits;
 
-use Croustibat\FilamentJobsMonitor\Models\QueueMonitor;
+use Blemli\FilamentJobsMonitor\Models\QueueMonitor;
 
 trait QueueProgress
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Croustibat\FilamentJobsMonitor\Tests;
+namespace Blemli\FilamentJobsMonitor\Tests;
 
-use Croustibat\FilamentJobsMonitor\FilamentJobsMonitorServiceProvider;
+use Blemli\FilamentJobsMonitor\FilamentJobsMonitorServiceProvider;
 use Filament\FilamentServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
@@ -15,7 +15,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Croustibat\\FilamentJobsMonitor\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Blemli\\FilamentJobsMonitor\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

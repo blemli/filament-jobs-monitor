@@ -1,6 +1,6 @@
 <?php
 
-namespace Croustibat\FilamentJobsMonitor;
+namespace Blemli\FilamentJobsMonitor;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
