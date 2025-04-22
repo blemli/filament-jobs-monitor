@@ -175,7 +175,7 @@ class FilamentJobsMonitorPlugin implements Plugin
      */
     public function getNavigationGroup(): ?string
     {
-        return $this->evaluate($this->navigationGroup) ?? config('filament-jobs-monitor.resources.navigation_group');
+        return $this->evaluate($this->navigationGroup) ?? __(config('filament-jobs-monitor.resources.navigation_group'));
     }
 
     /**
